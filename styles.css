@@ -9,6 +9,8 @@ body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     color: #333;
+    background-image: url(nittecollegepic.jpeg);
+    background-size:cover;
 }
 
 
@@ -130,12 +132,9 @@ header {
     background-color: #b1df0b;
     color: #121213;
 }
-body {
-   
-        background-image: url("nittecollegepic.jpeg");
-        background-color: #cccccc;
-    max-width:500000px;
-
+.college-back img{
+    max-width: fit-content;
+    height: inherit;
     opacity:20 ;
     background-size:cover;
 }
